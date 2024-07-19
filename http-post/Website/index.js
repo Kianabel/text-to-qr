@@ -2,7 +2,8 @@ const button = document.getElementById('pst');
 const input = document.getElementById('inputText');
 const img = document.getElementById('outputQR');
 
-const url = 'http://localhost:42069';
+const localurl = 'http://localhost:42069';
+const url = 'http://text-to-qr.api.syflare.com';
 
 button.addEventListener('click', async _ => {
   try {
