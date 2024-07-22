@@ -23,6 +23,7 @@ button.addEventListener('click', async _ => {
     const qrDataUrl = await response.text();
     console.log('Completed!', qrDataUrl);
     img.src = qrDataUrl;
+    input.value = ""
 
   } catch (err) {
     console.error(`Error: ${err}`);

@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" href="./fav.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Text-To-QR</title>
-</head>
-<body>
-    <h1>Text-To-QR</h1>
-<div id="imgContainer">
-    <img id="outputQR" src="" alt="">
-</div>
-<div id="inputStyle">
-    <input id="inputText" type="text">
-    <button id="pst">Submit</button>
-</div>
-</body>
-<script src="./index.js"></script>
+  </head>
+  <body>
+    <h1>Text - QR</h1>
+    <div class="contentContainer">
+      <div id="inputContainer">
+        <input id="inputText" type="text" placeholder="Enter text here!"/>
+        <button id="pst">Submit</button>
+      </div>
+      <div id="imgContainer">
+        <img id="outputQR" src="https://placehold.co/10x10/white/white" alt="Please enter some text on the left" />
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
 </html>
