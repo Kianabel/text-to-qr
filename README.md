@@ -14,7 +14,7 @@ Text-to-QR is a web application that generates QR codes from text input. The pro
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/text-to-qr.git
+git clone https://github.com/Kianabel/text-to-qr.git
 cd text-to-qr
 ```
 
@@ -41,8 +41,8 @@ You can run the backend locally and point the frontend to use it. By default, th
 ## Deployed Backend
 Alternatively, you can use the deployed API at http://text-to-qr.api.syflare.com. Ensure the frontend is configured to point to this URL.
 
-Screenshots
-Here are some images of the application:
+##Image:
+![image](https://github.com/user-attachments/assets/49bef0fb-63d3-447a-915b-9806fb0de478)
 
 
 License
