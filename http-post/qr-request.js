@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const url = 'http://localhost:42069';
+const url = 'http://text-to-qr.api.syflare.com';
 const data = 'WIFI:S:OPPO-A74;T:WPA;P:8647914947;H:false;;';
 
 axios.post(url, data)
